@@ -1,0 +1,42 @@
+.navbar {
+    margin: 0;
+    padding:0;
+}
+
+.intro2 {
+    background-color: rgb(216, 171, 139);
+    padding: 20px;
+    width:100%;
+    margin: 0px;
+    justify-content: center;
+
+}
+
+.search-txt {
+    height: 45px;
+    width: 200px;
+}
+
+
+.btn {  
+    background-color: orange;
+    color: white;
+    height: 45px;
+    width: 75px;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.btn:hover {
+    background-color: rgb(230, 152, 7);
+
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+}
