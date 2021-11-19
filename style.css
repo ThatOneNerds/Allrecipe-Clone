@@ -2,41 +2,53 @@
     background-color: black;
     overflow: hidden;
     padding: 0px;
+    height: 50px;
     margin: -10px;
 }
 
 .navbar a {
     float: right;
+    background-color: black;
     color: #f2f2f2;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
-    padding: 10px;
+    padding-top: 8px;
+    padding-right: 10px;
 }
 
-.intro2 {
-    background-color: coral;
-    border: 0;
-    padding: 0px;
-    height: 150px;
-    margin: -10px;
-    
+section {
+    background-color: #01FF70;
+    padding: 15px;
+    height: 100px;
+    margin-right: -10;
+    margin-left: -10;
+    position: flex;
 }
+
 
 .search-txt {
     height: 45px;
-    width: 200px;
+    width: 250px;
+    background-color: seashell;
+    border: none;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium;
+    margin-left: 20;
 }
-
 
 .btn {  
     background-color: orange;
     color: white;
     height: 45px;
-    width: 75px;
-    border-radius: 8px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
+    width: 45px;
+    border: 1px;
+    vertical-align: middle;
+}
+
+#button {
+    background-color: orange;
 }
 
 .btn:hover {
@@ -46,8 +58,12 @@
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 p {
     font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    margin-top: 0;
+    margin-bottom: 0;
 }
