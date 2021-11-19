@@ -23,9 +23,8 @@ section {
     height: 100px;
     margin-right: -10;
     margin-left: -10;
-    position: flex;
-}
 
+}
 
 .search-txt {
     height: 45px;
@@ -67,3 +66,9 @@ p {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+/*
+img {
+    border-radius: 50%;
+}
+/*
