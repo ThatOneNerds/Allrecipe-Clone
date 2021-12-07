@@ -17,6 +17,12 @@
     padding-right: 10px;
 }
 
+.top-recipes li {
+    float: right;
+    padding-right: 50px;
+    text-align: center;
+}
+
 section {
     background-color: #01FF70;
     padding: 15px;
@@ -28,11 +34,6 @@ section {
 
 .search-box {
     width:345;
-}
-
-.top-recipes {
-    width: 100;
-    height: 100;
 }
 
 .search-txt {
@@ -59,10 +60,15 @@ section {
     background-color: orange;
 }
 
+#imglist {
+    display: inline;
+}
+
 .btn:hover {
     background-color: rgb(230, 152, 7);
 
 }
+
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
@@ -79,4 +85,10 @@ p {
 
 img {
     border-radius: 50%;
+}
+
+
+
+ul {
+    list-style-type: none;
 }
